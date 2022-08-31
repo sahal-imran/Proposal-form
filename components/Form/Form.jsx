@@ -75,7 +75,7 @@ function Form() {
 
 
   return (
-    <Box sx={{ width: '100%', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', background: '#ffffff', px: 2 }} >
+    <Box sx={{ width: '100%', height: '100vh', display: {sm:'none',xs:'flex'}, justifyContent: 'center', alignItems: 'center', flexDirection: 'column', background: '#ffffff', px: 2 }} >
       <Typography variant='h2' sx={{ alignSelf: 'start', fontFamily: 'Roboto', fontSize: '24px', fontWeight: 800, color: '#22271f', textTransform: 'capitalize' }} >
         New proposal
       </Typography>
